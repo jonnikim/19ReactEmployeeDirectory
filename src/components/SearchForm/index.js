@@ -19,18 +19,11 @@ function SearchForm(props) {
 
         <button
           type="submit"
-          onClick={props.handleSortAlphabetically}
-          className="btn btn-success"
+          onClick={props.handleSort}
+          className="btn btn-dark"
         >
-          Sort by ABC
+          Sort Alphabetically
         </button>
-        {/* <button
-          type="submit"
-          onClick={props.handleFormSubmit}
-          className="btn btn-success"
-        >
-          Sort by Y
-        </button> */}
       </div>
     </form>
   );
