@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import Card from "../components/Card";
-import Alert from "../components/Alert";
 import SearchForm from "../components/SearchForm";
 
 class Home extends Component {
@@ -10,7 +9,6 @@ class Home extends Component {
     search: "",
   };
 
-  // When the component mounts, load the next dog to be displayed
   componentDidMount() {
     this.loadUsers();
   }
@@ -19,11 +17,6 @@ class Home extends Component {
     event.preventDefault();
     this.setState({ search: event.target.value });
   };
-
-  // handleSearchByName = (event) => {
-  //   event.preventDefault();
-  //   console.log("Hello");
-  // };
 
   handleSortAlphabetically = (event) => {
     event.preventDefault();
@@ -67,9 +60,6 @@ class Home extends Component {
             key={results.id.value}
           />
         ))}
-        <Alert style={{ opacity: this.state.match ? 1 : 0 }} type="success">
-          Yay! That Pup Liked You Too!!!
-        </Alert>
       </div>
     );
   }
