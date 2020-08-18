@@ -39,9 +39,9 @@ iv. npm start
 Notable Technologies Used:
 
 - React
-- React-Router-Dom
 - Axios
 - [RandomUser API](https://randomuser.me/)
+- Serve (for Heroku deployment)
 
 ## Contributing
 
