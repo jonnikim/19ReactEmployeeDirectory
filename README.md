@@ -4,7 +4,7 @@
 
 An employee directory with React. Application's UI is broken into components, manages component state, and responds to user events.
 
-<img src="/public/assets/images/abc.gif?raw=true">
+<img src="/public/assets/images/EmployeeDirectory.gif?raw=true">
 
 # Table of Contents
 
