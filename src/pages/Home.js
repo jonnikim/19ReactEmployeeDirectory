@@ -17,7 +17,7 @@ class Home extends Component {
 
   handleInputChange = (event) => {
     event.preventDefault();
-    this.setState({ search: event.target.value });
+    this.setState({ search: event.target.value.toLowerCase() });
   };
   handleSort = (event) => {
     event.preventDefault();
