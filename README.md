@@ -31,7 +31,7 @@ Heroku: [React Employee Directory](https://murmuring-sierra-54474.herokuapp.com/
 i. Fork the Github repository.
 ii. Clone the forked repo into your local machine
 iii. npm install the necessary packages
-iv. npm run build
+iv. npm start
 ```
 
 ## Usage
