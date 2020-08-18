@@ -23,7 +23,7 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ## Deployed App
 
-Heroku: [React Employee Directory]()
+Heroku: [React Employee Directory](https://murmuring-sierra-54474.herokuapp.com/)
 
 ## Installation
 
